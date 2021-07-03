@@ -6,3 +6,39 @@ body {
 h1 {
     font-size: 50px;
 }
+
+.main-name {
+
+    color: orangered;
+    font-size: 45px;
+}
+
+#main-div {
+
+    display: flex;
+}
+
+.intro-words {
+
+    width: 60%;
+}
+
+.intro-image {
+
+    margin-top: 5%;
+    width: 40%;
+}
+
+.intro-image img {
+    width: 100%;
+}
+
+.hire-me {
+
+    text-decoration: none;
+    background: linear-gradient(to left, rgb(233, 21, 57), rgb(223, 129, 145));
+    padding: 8px 20px;
+    border-radius: 5%;
+    color: white;
+}
+
