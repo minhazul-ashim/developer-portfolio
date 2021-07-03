@@ -1,6 +1,7 @@
 body {
 
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
 h1 {
@@ -16,11 +17,14 @@ h1 {
 #main-div {
 
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 
 .intro-words {
 
     width: 60%;
+    padding: 0px 5%;
 }
 
 .intro-image {
@@ -42,3 +46,29 @@ h1 {
     color: white;
 }
 
+#dream-big {
+
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+    background-position-y: 20%;
+    margin-top: 5%;
+}
+
+.dream-words {
+
+    width: 60%;
+    padding: 0px 5%;
+}
+
+.dream-image {
+
+    width: 40%;
+    margin-top: 5%;
+}
+
+.dream-image img {
+
+    width: 100%;
+}
