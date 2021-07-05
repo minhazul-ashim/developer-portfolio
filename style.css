@@ -117,14 +117,14 @@ section {
 
     text-align: center;
     font-size: 40px;
-    background-image: linear-gradient(to right, rgb(0, 102, 255), rgb(192, 154, 0));
-    -webkit-background-clip: text;
+    background-image: linear-gradient(to right, rgb(0, 102, 255), rgb(192, 154, 0));-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;;
 }
 
 .exp-box-container {
 
     display: flex;
+    padding-top: 5%;
 
 }
 
@@ -132,9 +132,39 @@ section {
 
     width: 50%;
     padding: 2% 5%;
+    box-shadow: -5px -10px 10px rgb(94, 209, 255);
 }
+
+.exp-box:first-child {
+
+    border-bottom: 15px solid;
+    border-image: linear-gradient(to right, rgb(228, 183, 4), rgb(0, 102, 255));
+    border-image-slice: 1;
+}
+
+.exp-box:last-child {
+
+    border-bottom: 15px solid;
+    border-image: linear-gradient(to right, rgb(0, 102, 255),  rgb(236, 190, 6));
+    border-image-slice: 1;
+}
+
 
 .exp-box h1 {
 
     text-align: left;
+    font-size: 30px;
+    color: #333;
 }
+
+.exp-box h2 {
+
+    color: rgb(109, 17, 196);
+    
+}
+
+.exp-box p {
+
+    color: #333;
+}
+
