@@ -1,0 +1,140 @@
+body {
+
+    font-family:'Poppins', sans-serif;
+    margin: 0;
+}
+
+section {
+
+    padding-bottom: 10%;
+
+}
+
+#first-intro {
+
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.first-intro {
+
+    width: 50%;
+    padding: 0 2%;
+}
+
+.intro-name {
+
+    color: rgb(255, 68, 0);
+}
+
+.first-intro h1 {
+
+    font-size: 45px;
+}
+
+.first-intro a {
+
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+    background-image: linear-gradient(to right, rgb(20, 173, 219), rgb(0, 47, 255));
+    padding: 5px 20px;
+    border-radius: 6%;
+    box-shadow: 5px 5px 15px grey;
+    
+}
+
+
+.intro-image {
+
+    width: 50%;
+}
+
+.intro-image img {
+
+    width: 100%;
+    margin-top: 5%;
+}
+
+#dreams {
+
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+
+.dreams-image {
+
+    width: 50%;
+}
+
+.dreams-image img {
+
+    width: 100%;
+}
+
+.dream-big {
+
+    width: 50%;
+    padding: 0 5%;
+}
+
+.dream-big h1 {
+
+    text-align: left;
+    font-size:30px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(to right, rgb(0, 0, 204), red);
+    margin-top: -3%;
+}
+
+.dream-big p {
+
+    text-align: justify;
+}
+
+.dream-big a {
+
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(0, 0, 204), rgb(233, 17, 17)) ;
+    color: white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+#experience {
+
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position-y: 30%;
+}
+
+.exp-header {
+
+    text-align: center;
+    font-size: 40px;
+    background-image: linear-gradient(to right, rgb(0, 102, 255), rgb(192, 154, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;;
+}
+
+.exp-box-container {
+
+    display: flex;
+
+}
+
+.exp-box {
+
+    width: 50%;
+    padding: 2% 5%;
+}
+
+.exp-box h1 {
+
+    text-align: left;
+}
