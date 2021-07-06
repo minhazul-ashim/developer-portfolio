@@ -304,6 +304,16 @@ footer p{
 
 
 
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 600px) {
 
     .links a {
@@ -334,5 +344,32 @@ footer p{
         font-size: 14px;
         border-radius: 5px;
         box-shadow: 5px 5px 10px grey;
+    }
+
+    .first-intro h1 {
+
+        font-size:23px;
+
+    }
+
+    .first-intro h2 {
+
+        font-size: 20px;
+    }
+
+    .first-intro p {
+
+        font-size: 13px;
+    }
+
+    .dreams-big h1{
+
+        font-size: 23px;
+
+    }
+
+    .dreams-big p {
+
+        font-size: 13px;
     }
 }
