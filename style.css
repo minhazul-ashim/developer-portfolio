@@ -6,7 +6,7 @@ body {
 
 section {
 
-    padding-bottom: 10%;
+    padding: 5% 5% 10% 5%;
 
 }
 
@@ -49,6 +49,7 @@ section {
 .intro-image {
 
     width: 50%;
+
 }
 
 .intro-image img {
@@ -73,8 +74,8 @@ section {
 .dreams-image img {
 
     width: 100%;
+    
 }
-
 .dream-big {
 
     width: 50%;
@@ -377,6 +378,24 @@ footer p{
         justify-content: center;
         align-items: center;
         text-align: justify;
+    }
+
+}
+
+@media (min-width:992px) {
+
+    .intro-image img {
+
+        width: 75%;
+        position: relative;
+        left: 5%;
+    }
+
+    .dreams-image img {
+
+        width: 75%;
+        position: relative;
+        left: 10%;
     }
 
 }
