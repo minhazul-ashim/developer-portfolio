@@ -346,6 +346,12 @@ footer p{
         text-align: justify;
     }
 
+    .subs-form input {
+
+        margin-bottom: 3%;
+        padding: 3% 10%;
+    }
+
 }
 
 @media (min-width: 575px) and (max-width:767px) {
@@ -378,6 +384,12 @@ footer p{
         justify-content: center;
         align-items: center;
         text-align: justify;
+    }
+
+    .subs-form input {
+
+        margin-bottom: 3%;
+        padding: 3% 10%;
     }
 
 }
