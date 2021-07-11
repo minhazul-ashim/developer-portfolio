@@ -30,7 +30,7 @@ section {
 
 .first-intro h1 {
 
-    font-size: 45px;
+    font-size: 2.8em;
 }
 
 .first-intro a {
@@ -84,7 +84,7 @@ section {
 .dream-big h1 {
 
     text-align: left;
-    font-size:30px;
+    font-size:1.8em;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-image: linear-gradient(to right, rgb(0, 0, 204), rgb(253, 27, 27));
@@ -101,7 +101,7 @@ section {
     text-decoration: none;
     background-image: linear-gradient(to right, rgb(0, 0, 204), rgb(233, 17, 17)) ;
     color: white;
-    padding: 7px 20px;
+    padding: 3% 5%;
     border-radius: 5px;
     box-shadow: 5px 5px 10px grey;
 }
@@ -116,7 +116,7 @@ section {
 .exp-header {
 
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5em;
     background-image: linear-gradient(to right, rgb(0, 102, 255), rgb(192, 154, 0));-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;;
 }
@@ -125,7 +125,7 @@ section {
 
     display: flex;
     padding-top: 5%;
-
+    text-align: justify;
 }
 
 .exp-box {
@@ -171,7 +171,7 @@ section {
 .contact-header {
 
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5em;
     background-image: linear-gradient(to right, rgb(131, 0, 131), rgb(7, 114, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -242,7 +242,7 @@ section {
 .subs-header {
 
     text-align: center;
-    font-size: 40px;
+    font-size: 2.5em;
     background-image: linear-gradient(to right, rgb(255, 0, 242), yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -277,14 +277,14 @@ section {
 .sub-submit {
 
     background: rgb(255, 255, 52);
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 500;
 }
 
 .sub-reset {
 
     background: rgb(253, 43, 43);
-    font-size: 15px;
+    font-size: 1em;
     color: white;
 }
 
@@ -297,7 +297,7 @@ section {
 
 footer p{
 
-    font-size: 20px;
+    font-size: 1.2em;
     color: #555;
     text-align: center;
 }
@@ -314,63 +314,69 @@ footer p{
 
 
 
-@media only screen and (max-width: 700px) {
+@media (max-width:574px) {
 
-    .links a {
+    .first-intro h1, .dream-big h1, .exp-box h1 {
 
-        margin-right: 0;
+        font-size: 1.4em;
+    } 
+
+    .first-intro h2, .exp-box h2 {
+
+        font-size: 1em;
     }
 
-    .exp-box h1 {
+    .first-intro p, .dream-big p, .exp-box p {
 
-        font-size: 23px;
+        font-size: 0.8em;
     }
-    .exp-box h2 {
+    
+    .exp-header,.contact-header, .subs-header {
 
-        font-size: 18px;
-    }
-
-    .exp-box p {
-
-        font-size: 13px;
+        font-size: 1.8em;
     }
 
-    .dream-big a {
+    .exp-box-container {
 
-        text-decoration: none;
-        background-image: linear-gradient(to right, rgb(0, 0, 204), rgb(233, 17, 17)) ;
-        color: white;
-        padding: 2% 3%;
-        font-size: 14px;
-        border-radius: 5px;
-        box-shadow: 5px 5px 10px grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
     }
 
-    .first-intro h1 {
+}
 
-        font-size:18px !important;
+@media (min-width: 575px) and (max-width:767px) {
 
+
+    .first-intro h1, .dream-big h1, .exp-box h1 {
+
+        font-size: 1.6em;
+    } 
+
+    .first-intro h2, .exp-box h2 {
+
+        font-size: 1.2em;
     }
 
-    .first-intro h2 {
+    .first-intro p, .dream-big p, .exp-box p {
 
-        font-size: 15px !important;
+        font-size: 1em;
+    }
+    
+    .exp-header,.contact-header, .subs-header {
+
+        font-size: 2em;
     }
 
-    .first-intro p {
+    .exp-box-container {
 
-        font-size: 10px !important;
-
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
     }
 
-    .dream-big h1{
-
-        font-size: 18px !important;
-
-    }
-
-    .dream-big p {
-
-        font-size: 11px !important;
-    }
 }
