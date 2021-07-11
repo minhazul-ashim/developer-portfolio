@@ -264,6 +264,8 @@ section {
     border: 1px solid rgb(197, 195, 195);
     padding: 8% 7%;
     box-shadow: 5px 5px 20px rgb(167, 165, 165);
+    display: flex;
+    justify-content: center;
 }
 
 .subs-form input {
@@ -352,6 +354,12 @@ footer p{
         padding: 3% 7%;
     }
 
+    .dream-big a {
+
+        padding: 3% 3%;
+       
+    }
+
 }
 
 @media (min-width: 575px) and (max-width:767px) {
@@ -390,6 +398,11 @@ footer p{
 
         margin-bottom: 3%;
         padding: 3% 7%;
+    }
+
+    .dream-big a {
+
+        padding: 3% 4%;
     }
 
 }
